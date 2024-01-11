@@ -45,4 +45,23 @@ console.log(false && false);
 // == it means equal
 // === equal with type Check
 
+// Increment 
 
+//for post-increment 
+let q = 70;
+console.log(q++)
+console.log(q);
+// for pre-increment
+let p = 50
+console.log(++p);
+
+
+// Drecrement
+
+// for post-decrement
+let a = 30;
+console.log(a--);
+console.log(a);
+// for pre-decrement
+let b =50;
+console.log(--b);
