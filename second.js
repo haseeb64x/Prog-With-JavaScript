@@ -48,7 +48,7 @@ console.log(false && false);
 // Increment 
 
 //for post-increment 
-let q = 70;
+let q = 70
 console.log(q++)
 console.log(q);
 // for pre-increment
