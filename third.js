@@ -23,7 +23,7 @@
 // }if(mode ==="Light"){
 //     color="light"
 // }
-console.log("You Choose the Color ", color);
+// console.log("You Choose the Color ", color);
 
 
 for(let i=1; i<=10; i++){
@@ -59,5 +59,13 @@ for(let n in obj){
     console.log(n,obj[n])
 }
 
+let num = 50;
+for(let i=0; i<=num; i++){
+    if(i%2==0){
+        console.log(`${i} is Even`)
 
-let user = prompt("Enter Your Number")
+    }
+    else{
+        console.log(`${i} is Odd`)
+    }
+}
