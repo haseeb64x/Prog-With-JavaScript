@@ -31,3 +31,7 @@ div[0].innerHTML="Kuch";
 let nesw = document.createElement('p');
 div[0].appendChild(nesw);
 nesw.innerHTML="Helo";
+
+let elm = document.createElement('h1');
+nesw.appendChild(elm);
+elm.innerHTML="web";
