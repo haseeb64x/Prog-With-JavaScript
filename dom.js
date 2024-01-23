@@ -35,3 +35,18 @@ nesw.innerHTML="Helo";
 let elm = document.createElement('h1');
 nesw.appendChild(elm);
 elm.innerHTML="web";
+
+let newBtn = document.createElement('button');
+div[0].appendChild(newBtn);
+
+newBtn.innerHTML = "Submit";
+newBtn.style.padding = "20px 24px";
+newBtn.className = "btn btn-danger";
+newBtn.style.fontSize = "24px";
+
+//Event 
+newBtn.addEventListener('click' , toggleBtn);
+    function toggleBtn(){
+        console.log("Clicked of Me")
+        newBtn.innerHTML = "Wow";
+    }
