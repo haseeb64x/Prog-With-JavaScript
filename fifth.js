@@ -13,5 +13,5 @@
 let grade = prompt("Enter Your Grade");
 let per = parseInt(prompt("Enter Your Percentage"));
 
-let result = grade ==="A" && per ===90 ||  grade ==="b" && per ===80 ? "Pass" : "Fail";
+let result = grade ==="A" && per ===90 ||  grade ==="B" && per ===80 ? "Pass" : "Fail";
 document.write(result);
